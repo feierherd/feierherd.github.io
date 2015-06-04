@@ -2,8 +2,9 @@ body {
   font-family: "PT Sans";
   font-size: 11pt;
   line-height: 175%;
-  margin: 25px 105px 5px 105px;*/
-  padding: 25px 200px 5px 200px; /* top right bottom left */
+  /*margin: 25px 165px 25px 165px;
+
+  /*padding: 25px 5px 5px 5px; /* top right bottom left */
 }
 
 
@@ -89,6 +90,14 @@ a:active {
   border-right: #ccc;
 }
 
+div {
+    width: 720px;
+    padding: 10px;
+    border: none;
+    margin: 35px;
+    max-width: 90%;
+    min-width: 20%;
+}
 
 
 </style>
