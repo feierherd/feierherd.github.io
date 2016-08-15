@@ -1,6 +1,6 @@
 body {
   font-family: "PT Sans";
-  font-size: 11pt;
+  font-size: 13pt;
   line-height: 175%;
   /*margin: 25px 165px 25px 165px;
   /*padding: 25px 5px 5px 5px; /* top right bottom left */
@@ -51,14 +51,14 @@ code, pre {
 }
 
 a:link {
-    color:#000000;
+    color: #000000;
     background-color:transparent;
-    text-decoration:none;
+    text-decoration:underline;
 }
 a:visited {
-    color:#000000;
+    color: #000000;
     background-color:transparent;
-    text-decoration:none;
+    text-decoration:underline;
 }
 a:hover {
     color:#ff0000;
