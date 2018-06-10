@@ -1,8 +1,8 @@
 
 
 body {
-  font-family: "times, serif";
-  font-size: 13pt;
+  font-family: "arial";
+  font-size: 12pt;
   line-height: 175%;
   color: black;
   margin: 10px;
@@ -196,6 +196,7 @@ p + p {
     .column {
         width: 100%;
     }
+    
     IMG.displayed {display:none} 
 
 }
