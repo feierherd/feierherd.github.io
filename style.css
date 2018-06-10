@@ -159,7 +159,7 @@ a:active {
 
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
     .column {
         width: 100%;
     }
