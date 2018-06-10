@@ -45,18 +45,18 @@ h2 {
     background-color:#FFFFFF;
 }
 
-.left, .right {
+.left {
   width: 25%;
 }
 
 
 .right {
-  width: 10%;
+  width: 15%;
 }
 
 
 .middle {
-  width: 65%;
+  width: 60%;
 }
 
 /* Clear floats after the columns */
