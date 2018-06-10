@@ -51,12 +51,12 @@ h2 {
 
 
 .right {
-  width: 15%;
+  width: 12%;
 }
 
 
 .middle {
-  width: 60%;
+  width: 63%;
 }
 
 /* Clear floats after the columns */
@@ -153,28 +153,6 @@ a:active {
 }
 
 
-* {
-    box-sizing: border-box;
-}
-
-
-
-@media screen and (max-width: 600px) {
-    .column {
-        width: 100%;
-    }
-}
-
-@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 667px) {
-  .column {
-        width: 100%;
-    }
-}
-
-
-
 
 .center {
     margin-left: auto;
@@ -205,6 +183,33 @@ IMG.displayed {
 p + p {
     margin-top: 0px;
 }
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+    IMG.displayed {display:none} 
+
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
+  .column {
+        width: 100%;
+    }
+  IMG.displayed {display:none} 
+
+}
+
 
 
 </style>
