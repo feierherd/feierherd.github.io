@@ -6,7 +6,7 @@ body {
   line-height: 175%;
   color: black;
   margin: 10px;
-  background-color:#FFFFFF;
+  background-color:#f0efef;
   /*padding: 25px 5px 5px 5px; /* top right bottom left */
 }
 
@@ -23,8 +23,8 @@ div {
 
 h1 { 
     display: block;
-    color: #EA4335;
-    font-size: 1.3em;
+    color: #d64161;
+    font-size: 2em;
     margin-top: 0.67em;
     margin-bottom: 0.67em;
     margin-left: 0;
@@ -42,21 +42,21 @@ h2 {
 .column {
     float: left;
     padding: 10px;
-    background-color:#FFFFFF;
+    background-color:#f0efef;
+
 }
 
 .left {
-  width: 25%;
-}
+  width: 35%;
+ padding-left: 30px;
 
-
-.right {
-  width: 12%;
 }
 
 
 .middle {
-  width: 63%;
+  width: 65%;
+  padding-right: 30px;
+
 }
 
 /* Clear floats after the columns */
@@ -124,7 +124,7 @@ a:visited {
     text-decoration:underline;
 }
 a:hover {
-    color: #FBBC05;
+    color: #feb236;
     background-color:transparent;
     text-decoration:underline;
 }
