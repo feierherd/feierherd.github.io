@@ -23,7 +23,7 @@ div {
 
 h1 { 
     display: block;
-    color: #d64161;
+    color: #034f84;
     font-size: 2em;
     margin-top: 0.67em;
     margin-bottom: 0.67em;
@@ -162,8 +162,8 @@ a:active {
 
 
 img {
-    border-radius: 50%;
-    max-width: 80%;
+/*    border-radius: 50%;
+*/    max-width: 80%;
     height: auto;
     width: auto\9; /* ie8 */
 /*    -webkit-filter: grayscale(100%);  Safari 6.0 - 9.0 
@@ -214,3 +214,4 @@ and (max-device-width : 667px) {
 
 
 </style>
+
