@@ -5,7 +5,10 @@ body {
   font-size: 12pt;
   line-height: 175%;
   color: black;
-  margin: 10px;
+  margin-top: 1px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
   background-color:#f0efef;
   /*padding: 25px 5px 5px 5px; /* top right bottom left */
 }
@@ -24,7 +27,7 @@ div {
 h1 { 
     display: block;
     color: #034f84;
-    font-size: 2em;
+    font-size: 1.5em;
     margin-top: 0.67em;
     margin-bottom: 0.67em;
     margin-left: 0;
@@ -35,7 +38,9 @@ h1 {
 
 
 h2 {
-  color: #c94c4c;
+  color: #92a8d1;
+      font-size: 1em;
+
 }
 
 
@@ -83,6 +88,17 @@ h4 {
   line-height: 140%;
   color: LightPink;
   font-weight: normal
+}
+
+h6 { 
+    display: block;
+    color: #EA4335;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
 }
 
 .contact {
