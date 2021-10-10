@@ -1,7 +1,7 @@
 body {
   font-family: "arial";
   font-size: 12pt;
-  line-height: 175%;
+  line-height: 150%;
   color: black;
   margin-top: 1px;
   margin-bottom: 10px;
@@ -228,6 +228,22 @@ p + p {
 }
 
 
+.button {
+  border: none;
+  color: white;
+text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+/*  margin: 4px 2px;
+*/  cursor: pointer;
+}
+
+.button1 {background-color: #034f84;} /* blue */
+.button2 {background-color: #f7786b;} /* orange */
+.button3 {background-color: #c94c4c;} /* red */
+.button4 {background-color: #5b9aa0;} /* green */
+
 @media screen and (max-width: 600px) {
     .column {
         width: 100%;
@@ -247,25 +263,6 @@ and (max-device-width : 667px) {
   IMG.displayed {display:none} 
 
 }
-
-
-.button {
-  border: none;
-  color: white;
-text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 11px;
-/*  margin: 4px 2px;
-*/  cursor: pointer;
-}
-
-.button1 {background-color: #034f84;} /* blue */
-.button2 {background-color: #f7786b;} /* orange */
-.button3 {background-color: #c94c4c;} /* red */
-.button4 {background-color: #5b9aa0;} /* green */
-
-
 
 </style>
 
