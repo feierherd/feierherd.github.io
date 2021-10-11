@@ -5,8 +5,8 @@ body {
   color: black;
   margin-top: 1px;
   margin-bottom: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
   background-color:#f0efef;
   /*padding: 25px 5px 5px 5px; /* top right bottom left */
 }
@@ -75,10 +75,10 @@ h6 {
 
 
 .middle {
-  width: 70%;
-  padding-right: 20px;
+  width: 60%;
+/*  padding-right: 20px;
     padding-left: 60px;
-
+*/
 
 }
 
