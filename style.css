@@ -3,49 +3,49 @@ body {
   font-size: 12pt;
   line-height: 150%;
   color: black;
-  margin-top: 1px;
+  margin-top: 50px;
   margin-bottom: 10px;
-  margin-left: 20px;
-  margin-right: 20px;
-  background-color:#f0efef;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:white;
+  max-width: 650px;
   /*padding: 25px 5px 5px 5px; /* top right bottom left */
 }
-
 
 div {
     width: 100%;
     padding: 10px;
     border: none;
-    margin: 0px;
-    /*max-width: 90%;
-    min-width: 20%;*/
+    margin: 10px;
+    max-width: 90%;
+    min-width: 20%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+.main {
+  font-family: Times;
+    float: center;
+    padding: 10px;
+    background-color:white;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 650px;
+}
+
+.research {
+  font-family: Times;
+    float: center;
+    padding: 1px;
+    background-color:#FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 650px;
+}
 
 h1 { 
     display: block;
-    color: #034f84;
-    font-size: 1.5em;
-    margin-top: 1em;
-    margin-bottom: 0.5em;
-    margin-left: 0;
-    margin-right: 0;
-    font-weight: bold;
-}
-
-
-h4 {
-  font-family: "Helvetica"
-  text-align: center; 
-  line-height: 140%;
-  color: LightPink;
-  font-weight: normal
-}
-
-
-h6 { 
-    display: block;
-    color: #EA4335;
+    color: #EA4435;
     font-size: 2em;
     margin-top: 0.67em;
     margin-bottom: 0.67em;
@@ -55,71 +55,18 @@ h6 {
   font-family: "arial";
 }
 
-
-.column {
-    float: left;
-    padding: 20px;
-    background-color:#f0efef;
-
+h2 { 
+    display: block;
+    color: #696969;
+    font-size: 1.5em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+  font-family: "arial";
 }
 
 
-.left {
- width: 30%;
- /*padding-left: 30px;*/
- line-height: 150%;
-  font-size: 12pt;
- color: #585858;
-   font-family: "Helvetica"
-}
-
-
-.middle {
-  width: 60%;
-/*  padding-right: 20px;
-    padding-left: 60px;
-*/
-
-}
-
-
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-
-#one{
-  font-family: "Helvetica"
-  font-size: 11pt;
-  /*line-height: 175%;*/
-  font-weight: normal; 
-margin-top: -15px;  
-}
-
-#two{
-  font-family: "Helvetica"
-  font-size: 11pt;
-  /*line-height: 175%;*/
-  font-weight: normal; 
-margin-top: -10px;  
-}
-
-
-.contact {
-  font-family: "Helvetica"
-  font-weight: bold;
-  color: #C0C0C0;
-  text-align: left;
-  line-height: 35%;
-}
-
-
-.title, .author {
-  display: none;
-}
 
 
 .footer {
@@ -162,30 +109,6 @@ a:active {
     text-decoration:underline;
 }
 
-
-.pages {
-  width: 100%;
-  float: center;
-  margin: 0% 0 0 0;
-  padding: 0;
-  list-style: none;
-  /*background-color: #FFFFFF;*/
-  border-bottom: 1px solid #FFFFFF;
-  border-top: 1px solid #FFFFFF;
-  font-family: "PT Sans", sans-serif;
-  font-size: 120%;
-  text-align: center; 
-  padding-top: 7px;
-  padding-bottom: 17px;
-  border-right: #ccc;
-}
-
-
-.center {
-    margin-left: auto;
-    margin-right: auto;
-    /*width: 70%;*/ 
-}
 
 
 img {
